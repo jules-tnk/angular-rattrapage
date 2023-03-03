@@ -9,6 +9,8 @@ export interface Image {
   webformatURL: string,
   webformatWidth: number,
   webformatHeight: number,
+  likes: number,
+  comments: number,
 
   userImageURL: string
 
