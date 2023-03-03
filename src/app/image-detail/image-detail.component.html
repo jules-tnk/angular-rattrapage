@@ -1,0 +1,9 @@
+<div class="row d-flex justify-content-center" *ngIf="image">
+  <div class="col-10 d-flex justify-content-center" >
+    <img class="w-75"
+          src="{{image.webformatURL}}" alt="">
+  </div>
+  <div class="col-10 d-flex justify-content-center">
+    <a class="w-75 btn btn-success"  href="{{image.pageURL}}">See original page</a>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="card h-100" *ngIf="image">
+  <!-- image-->
+  <img class="card-img-top" src="{{image.previewURL}}" alt="..."
+  routerLink="/gallery/{{image.id}}" />
+  <!-- Product details-->
+  <div class="card-body p-4">
+    <div class="text-center">
+      <!-- image name-->
+      <h5 class="fw-bolder">{{image.tags}}</h5>
+    </div>
+  </div>
+</div>
